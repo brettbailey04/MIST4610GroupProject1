@@ -25,26 +25,15 @@ Query 1: This query lists all active reservations with Check In and Check Out da
 
 <img width="846" alt="Screenshot 2025-03-16 at 6 01 45 PM" src="https://github.com/user-attachments/assets/949137ca-1076-43f0-b68a-9c3f1e6cf1ca" />
 
+Query 2: This query lists out the total number of guests currently staying at the resort. This could be useful for a resort manager to see how many people have reservations at the resort in real time. This could also be useful to maximize profit similaryly to Query 1.
+
+<img width="846" alt="Screenshot 2025-03-16 at 6 08 43 PM" src="https://github.com/user-attachments/assets/6bf3a655-8521-4004-8436-68f275484bfa" />
 
 
 
--- 2: Total number of guests staying at the resort 
+Query 3:  This query shows all available rental equipment. This is important for a manager because it allows them to see what equipment is available at the resort in real time. This is useful to have because a manager would want to know what equipment, equipment types, and equipment sizes are not readily available. 
 
-CREATE Procedure TP_Q2()
-SELECT COUNT(guestID) AS totalGuests 
-FROM Guest;
-
-Output:
-
-
--- 3: Shows all available rental equipment 
-
-CREATE Procedure TP_Q3()
-SELECT equipmentID, equipmentType, equipmentSize 
-FROM Equipment 
-WHERE equipmentAvailability = 'Available';
-
-Output:
+<img width="846" alt="Screenshot 2025-03-16 at 6 11 36 PM" src="https://github.com/user-attachments/assets/2efcdd19-897e-4a1e-b595-2fa1e0c06290" />
 
 
 
