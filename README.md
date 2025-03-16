@@ -10,7 +10,7 @@ Mohammed:
 Evan: 
 Soham: 
 
-Scenario Description: Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
+Scenario Description: Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. It also shows a snapshot of roombookings from each hotel at a point in time. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
 
 Data Model:
 ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
@@ -52,16 +52,9 @@ Query 5: This query allows the manager to view the most expensive room in each h
 
 
 
--- 6: Show revenue from room bookings per hotel 
+Query 6: This Query show revenue from room bookings per hotel. This would be useful to a manager to track financial progress of a hotel, manage pricing and revenue, create accurate budgets, and provide insight for expansion and further investments for each hotel under the firm's management. 
 
-CREATE Procedure TP_Q6()
-SELECT Hotel.hotelName, SUM(Room.roomPrice) AS Revenue
-FROM Room
-JOIN Hotel ON Room.hotelID = Hotel.hotelID
-WHERE Room.reservationID IS NOT NULL
-GROUP BY Hotel.hotelName;
-
-Output:
+<img width="846" alt="Screenshot 2025-03-16 at 6 42 26 PM" src="https://github.com/user-attachments/assets/d2c8f18a-4319-4bd5-a06e-b96947c20e1b" />
 
 
 
