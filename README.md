@@ -12,4 +12,5 @@ Soham:
 
 Scenario Description: Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
 
+Data Model: ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
 
