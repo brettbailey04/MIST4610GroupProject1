@@ -21,7 +21,7 @@ Data Dictionary:
 
 Queries: 
 
-Query 1: This query lists all active reservations with Check In and Check Out dates. This query would be useful for a resort manager to know so that they do not book more than one party at each available location or allow a location to be vacant as to maximize reveunes of the resort. 
+Query 1: This query lists all upcoming reservations with Check In and Check Out dates. This query would be useful for a resort manager to know so that they do not book more than one party at each available location or allow a location to be vacant as to maximize reveunes of the resort. 
 
 <img width="846" alt="Screenshot 2025-03-16 at 6 01 45 PM" src="https://github.com/user-attachments/assets/949137ca-1076-43f0-b68a-9c3f1e6cf1ca" />
 
