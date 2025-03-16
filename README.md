@@ -46,15 +46,9 @@ Query 4:  This query shows all hotel names and locations. This is important beca
 -- Complex queries 5-10
 
 
--- 5: Find the most expensive room booked in each hotel
+Query 5: This query allows the manager to view the most expensive room in each hotel. This information would be useful to a resort manager to ensure that the most expensive rooms receive proper maintenance, maintain customer satisfaction for high-end rooms, and maintain a competitive edge in terms of pricing when comparing to other resorts. 
 
-CREATE Procedure TP_Q5()
-SELECT Hotel.hotelName, Room.roomType, Room.roomPrice
-FROM Room
-JOIN Hotel ON Room.hotelID = Hotel.hotelID
-WHERE Room.roomPrice = (SELECT MAX(Room.roomPrice) FROM Room WHERE Room.hotelID = Hotel.hotelID);
-
-Output:
+<img width="846" alt="Screenshot 2025-03-16 at 6 40 58 PM" src="https://github.com/user-attachments/assets/1c66428a-6934-4db3-9e18-bed63f35a17d" />
 
 
 
