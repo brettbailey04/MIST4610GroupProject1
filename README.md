@@ -28,11 +28,13 @@ WHERE checkOutDate >= '2025-03-12';
 
 
 -- 2: Total number of guests staying at the resort 
+
 CREATE Procedure TP_Q2()
 SELECT COUNT(guestID) AS totalGuests 
 FROM Guest;
 
 -- 3: Shows all available rental equipment 
+
 CREATE Procedure TP_Q3()
 SELECT equipmentID, equipmentType, equipmentSize 
 FROM Equipment 
@@ -40,6 +42,7 @@ WHERE equipmentAvailability = 'Available';
 
 
 -- 4: Shows all hotel names and locations 
+
 CREATE Procedure TP_Q4()
 SELECT hotelName, hotelLocation 
 FROM Hotel;
@@ -48,6 +51,7 @@ FROM Hotel;
 
 
 -- 5: Find the most expensive room booked in each hotel
+
 CREATE Procedure TP_Q5()
 SELECT Hotel.hotelName, Room.roomType, Room.roomPrice
 FROM Room
@@ -56,6 +60,7 @@ WHERE Room.roomPrice = (SELECT MAX(Room.roomPrice) FROM Room WHERE Room.hotelID 
 
 
 -- 6: Show revenue from room bookings per hotel 
+
 CREATE Procedure TP_Q6()
 SELECT Hotel.hotelName, SUM(Room.roomPrice) AS Revenue
 FROM Room
@@ -65,6 +70,7 @@ GROUP BY Hotel.hotelName;
 
 
 -- 7: Show instructors who are currently available and assigned to a lesson
+
 CREATE Procedure TP_Q7()
 SELECT Instructor.instructorName, Lesson.lessonDate, Lesson.lessonTime, Trail.trailName
 FROM Instructor
@@ -75,6 +81,7 @@ WHERE Instructor.instructorAvailability = 'Available';
 
 
 -- 8:  Find the hotels with the highest ranking 
+
 CREATE Procedure TP_Q8()
 SELECT Hotel.hotelName, Restaurant.restaurantName, Hotel.hotelRating
 FROM Hotel
@@ -83,6 +90,7 @@ WHERE Hotel.hotelRating = (SELECT MAX(Hotel.hotelRating) FROM Hotel);
 
 
 -- 9:  Find trails with an operational lift and their difficulty level
+
 CREATE Procedure TP_9()
 SELECT Trail.trailName, Trail.trailDifficulty
 FROM Trail
@@ -91,6 +99,7 @@ GROUP BY Trail.trailName, Trail.trailDifficulty;
 
 
 -- 10: Displays the highest-paid rental shop employee at each rental shop 
+
 CREATE Procedure TP_Q10()
 SELECT RentalShop.rentalShopName, rentalShopStaff.staffName, rentalShopStaff.staffSalary
 FROM rentalShopStaff
