@@ -33,17 +33,14 @@ Query 2: This query lists out the total number of guests currently staying at th
 
 Query 3:  This query shows all available rental equipment. This is important for a manager because it allows them to see what equipment is available at the resort in real time. This is useful to have because a manager would want to know what equipment, equipment types, and equipment sizes are not readily available. 
 
-<img width="846" alt="Screenshot 2025-03-16 at 6 11 36 PM" src="https://github.com/user-attachments/assets/2efcdd19-897e-4a1e-b595-2fa1e0c06290" />
+<img width="846" alt="Screenshot 2025-03-16 at 6 26 04 PM" src="https://github.com/user-attachments/assets/db34cde1-1a16-43e7-9c48-10ca396366a2" />
 
 
 
--- 4: Shows all hotel names and locations 
+Query 4:  This query shows all hotel names and locations. This is important because it allows the manager to view all individual hotels and their corresponding locations as well as their maximum capacities. This ensures that any one hotel is not overbooked. 
 
-CREATE Procedure TP_Q4()
-SELECT hotelName, hotelLocation 
-FROM Hotel;
+<img width="846" alt="Screenshot 2025-03-16 at 6 30 06 PM" src="https://github.com/user-attachments/assets/e71d1ded-ceff-4235-8ddc-e3b335c0728d" />
 
-Output:
 
 
 -- Complex queries 5-10
