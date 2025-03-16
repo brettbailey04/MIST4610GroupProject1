@@ -52,7 +52,7 @@ Query 5: This query allows the manager to view the most expensive room in each h
 
 
 
-Query 6: This Query show revenue from room bookings per hotel. This would be useful to a manager to track financial progress of a hotel, manage pricing and revenue, create accurate budgets, and provide insight for expansion and further investments for each hotel under the firm's management. 
+Query 6: This Query show revenue from room bookings per hotel. This would be useful to a manager to track financial progress of a hotel, manage pricing and revenue, create accurate budgets, and provide insight for expansion and further investments for each hotel under the firm's management. Because this data is snapshot in time, many data values are similar to query 5 but would differ as different rooms are booked at different times. 
 
 <img width="846" alt="Screenshot 2025-03-16 at 6 42 26 PM" src="https://github.com/user-attachments/assets/d2c8f18a-4319-4bd5-a06e-b96947c20e1b" />
 
