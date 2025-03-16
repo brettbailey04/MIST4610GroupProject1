@@ -19,6 +19,7 @@ Data Model:
 Data Dictionary: 
 
 
+
 Queries: 
 
 Query 1: This query lists all upcoming reservations with Check In and Check Out dates. This query would be useful for a resort manager to know so that they do not book more than one party at each available location or allow a location to be vacant as to maximize reveunes of the resort. 
@@ -58,18 +59,9 @@ Query 6: This Query show revenue from room bookings per hotel. This would be use
 
 
 
--- 7: Show instructors who are currently available and assigned to a lesson
+Query 7: This query shows instructors who are currently available and assigned to a lesson. This is important to a manager so they know if an instructor is not present for an event, to ensure guest satisfaction during excursions, and to monitor the performance of each instructor. 
 
-CREATE Procedure TP_Q7()
-SELECT Instructor.instructorName, Lesson.lessonDate, Lesson.lessonTime, Trail.trailName
-FROM Instructor
-JOIN Instructor_has_Lesson ON Instructor.instructorID = Instructor_has_Lesson.instructorID
-JOIN Lesson ON Instructor_has_Lesson.lessonID = Lesson.lessonID
-JOIN Trail ON Lesson.trailID = Trail.trailID
-WHERE Instructor.instructorAvailability = 'Available';
-
-Output:
-
+<img width="846" alt="Screenshot 2025-03-16 at 7 02 21 PM" src="https://github.com/user-attachments/assets/76a63b84-de85-47ec-bcde-f99ff004d793" />
 
 
 -- 8:  Find the hotels with the highest ranking 
