@@ -6,7 +6,7 @@ Team Members: Brett Bailey, Brooke Credendino, Mohammed Omar, Evan Langley, Soha
 Links to each GitHub repository: 
 Brett: https://github.com/brettbailey04/Ski-Resort-.git
 Brooke: 
-Mohammed: 
+Mohammed: https://github.com/brettbailey04/Ski-Resort-.git
 Evan: 
 Soham: 
 
