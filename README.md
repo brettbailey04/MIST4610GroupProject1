@@ -17,7 +17,8 @@ Data Model:
 ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
 
 
-Data Dictionary: 
+Data Dictionary:                                                                                                                                                                      [Ski Resort Data Dictionary.docx](https://github.com/user-attachments/files/19299758/Ski.Resort.Data.Dictionary.docx)
+
 
 Database Information Table: 
 
