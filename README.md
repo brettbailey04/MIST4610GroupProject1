@@ -22,8 +22,9 @@ Database Information Table:
 Queries: 
 
 Query 1: This query lists all upcoming reservations with Check In and Check Out dates. This query would be useful for a resort manager to know so that they do not book more than one party at each available location or allow a location to be vacant as to maximize reveunes of the resort. 
+<img width="677" alt="Screenshot 2025-03-17 at 4 31 23 PM" src="https://github.com/user-attachments/assets/bd24ccef-a1d5-4901-8514-2b82ce248496" />
 
-<img width="846" alt="Screenshot 2025-03-16 at 6 01 45 PM" src="https://github.com/user-attachments/assets/949137ca-1076-43f0-b68a-9c3f1e6cf1ca" />
+
 
 Query 2: This query lists out the total number of guests currently staying at the resort. This could be useful for a resort manager to see how many people have reservations at the resort in real time. This could also be useful to maximize profit similarly to Query 1.
 
@@ -60,7 +61,8 @@ Query 6: This Query show revenue from room bookings per hotel. This would be use
 
 Query 7: This query shows instructors who are currently available and assigned to a lesson. This is important to a manager so they know if an instructor is not present for an event, to ensure guest satisfaction during excursions, and to monitor the performance of each instructor. 
 
-<img width="846" alt="Screenshot 2025-03-16 at 7 02 21 PM" src="https://github.com/user-attachments/assets/76a63b84-de85-47ec-bcde-f99ff004d793" />
+<img width="836" alt="Screenshot 2025-03-17 at 4 32 02 PM" src="https://github.com/user-attachments/assets/770ebedf-038f-4c36-b51f-53771e1f5c07" />
+
 
 
 Query 8: This query allows the resort manager to view the hotels with the highest ratings. This is useful because it allows the manager to understand and identify areas where the resort is doing well in terms of customer satisfaction. It could also allow the manager learn what customers liked and why they rated the hotels as highly as they did in order to allign the resort's practices with guests' expectations. 
@@ -72,13 +74,14 @@ Query 8: This query allows the resort manager to view the hotels with the highes
 
 Query 9: This query allows the resort manager to view all ski trails and their respective diffulty rankings. This is important for a manager to know to ensure guest safety, allocate appropriate resources to each trail, configure responses for emergencies that may arise, and plan for ski events depending on skill levels for guests. 
 
-<img width="629" alt="Screenshot 2025-03-17 at 3 12 04 PM" src="https://github.com/user-attachments/assets/c99df5df-da4c-4acd-b81e-95af769eb787" />
 
+
+<img width="836" alt="Screenshot 2025-03-17 at 4 32 38 PM" src="https://github.com/user-attachments/assets/4b84f509-8cd4-41aa-a30b-baee5e47bc0b" />
 
 
 Query 10: This query displays the highest-paid rental shop employee at each equipment rental shop. This query is important for a resort manager to know so they are able to accurately manage each rental shop's budget, identify employees and determine their performance, recognize talented employees, and compare and standardize employee salaries for each loaction. 
 
-<img width="1139" alt="Screenshot 2025-03-17 at 3 15 04 PM" src="https://github.com/user-attachments/assets/05d1aa21-14e0-4ec4-ba12-0d0975941805" />
+<img width="1023" alt="Screenshot 2025-03-17 at 4 33 11 PM" src="https://github.com/user-attachments/assets/0d6a7a16-6995-4ca9-8e17-ea3ab692152e" />
 
 
 ADDITIONAL DATABASE INFORMATION                                                                                                                      
