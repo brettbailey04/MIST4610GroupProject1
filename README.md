@@ -2,7 +2,7 @@
 Project 1 - Ski resort 
 
 Team Members: 
-1) Brett Bailey [https://github.com/brettbailey04 ](https://github.com/brettbailey04)
+1) Brett Bailey [brettbailey04](https://github.com/brettbailey04)
 2) Brooke Credendino
 3) Mohammed Omar [@momo103103](https://github.com/momo103103)
 4) Evan Langley
