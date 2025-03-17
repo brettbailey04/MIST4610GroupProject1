@@ -17,8 +17,22 @@ Data Model:
 ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
 
 
-Data Dictionary:                                                                                                                                                                     
-![image](https://github.com/user-attachments/files/19299773/Ski.Resort.Data.Dictionary.pdf)
+Data Dictionary: 
+
+
+
+
+
+<img width="616" alt="Screenshot 2025-03-17 at 6 37 22 PM" src="https://github.com/user-attachments/assets/17baa2c9-1d2c-4fcf-8d38-465274c96e51" />
+<img width="616" alt="Screenshot 2025-03-17 at 6 37 45 PM" src="https://github.com/user-attachments/assets/7812c4de-bb41-460a-b1fd-6b11e318ce8f" />
+<img width="616" alt="Screenshot 2025-03-17 at 6 37 55 PM" src="https://github.com/user-attachments/assets/6c775643-93a3-4ba7-845f-6819ccc3b9d7" />
+<img width="616" alt="Screenshot 2025-03-17 at 6 38 05 PM" src="https://github.com/user-attachments/assets/c9b03663-d738-4992-bc0b-9c9b27444994" />
+<img width="616" alt="Screenshot 2025-03-17 at 6 38 17 PM" src="https://github.com/user-attachments/assets/d22bfc65-f3e2-48d4-a4b1-1181d75c9f26" />
+
+
+
+                                                                                             
+
 
 
 Database Information Table: 
