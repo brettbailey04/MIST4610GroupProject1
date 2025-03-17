@@ -13,7 +13,7 @@ Data Model:
 
 
 Data Dictionary: 
-[Ski Resort Data Dictionary.pdf](https://github.com/user-attachments/files/19295329/Ski.Resort.Data.Dictionary.pdf)
+![image](https://github.com/user-attachments/files/19295329/Ski.Resort.Data.Dictionary.pdf)
 
 
 
