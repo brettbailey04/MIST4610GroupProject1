@@ -8,7 +8,7 @@ Link to GitHub repository: https://github.com/brettbailey04/Ski-Resort-.git
 
 Scenario Description: Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. It also shows a snapshot of roombookings from each hotel at a point in time. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
 
-Data Model:
+Data Model:                                                                                                                                    
 ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
 
 
