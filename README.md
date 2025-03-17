@@ -25,7 +25,7 @@ Query 1: This query lists all upcoming reservations with Check In and Check Out 
 
 <img width="846" alt="Screenshot 2025-03-16 at 6 01 45 PM" src="https://github.com/user-attachments/assets/949137ca-1076-43f0-b68a-9c3f1e6cf1ca" />
 
-Query 2: This query lists out the total number of guests currently staying at the resort. This could be useful for a resort manager to see how many people have reservations at the resort in real time. This could also be useful to maximize profit similaryly to Query 1.
+Query 2: This query lists out the total number of guests currently staying at the resort. This could be useful for a resort manager to see how many people have reservations at the resort in real time. This could also be useful to maximize profit similarly to Query 1.
 
 <img width="846" alt="Screenshot 2025-03-16 at 6 08 43 PM" src="https://github.com/user-attachments/assets/6bf3a655-8521-4004-8436-68f275484bfa" />
 
@@ -79,9 +79,3 @@ Query 9: This query allows the resort manager to view all ski trails and their r
 Query 10: This query displays the highest-paid rental shop employee at each equipment rental shop. This query is important for a resort manager to know so they are able to accurately manage each rental shop's budget, identify employees and determine their performance, recognize talented employees, and compare and standardize employee salaries for each loaction. 
 
 <img width="1139" alt="Screenshot 2025-03-17 at 3 15 04 PM" src="https://github.com/user-attachments/assets/05d1aa21-14e0-4ec4-ba12-0d0975941805" />
-
-
-Output:
-
-
-
