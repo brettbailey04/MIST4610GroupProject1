@@ -63,37 +63,23 @@ Query 7: This query shows instructors who are currently available and assigned t
 <img width="846" alt="Screenshot 2025-03-16 at 7 02 21 PM" src="https://github.com/user-attachments/assets/76a63b84-de85-47ec-bcde-f99ff004d793" />
 
 
--- 8:  Find the hotels with the highest ranking 
+Query 8: This query allows the resort manager to view the hotels with the highest ratings. This is useful because it allows the manager to understand and identify areas where the resort is doing well in terms of customer satisfaction. It could also allow the manager learn what customers liked and why they rated the hotels as highly as they did in order to allign the resort's practices with guests' expectations. 
 
-CREATE Procedure TP_Q8()
-SELECT Hotel.hotelName, Restaurant.restaurantName, Hotel.hotelRating
-FROM Hotel
-JOIN Restaurant ON Hotel.hotelID = Restaurant.hotelID
-WHERE Hotel.hotelRating = (SELECT MAX(Hotel.hotelRating) FROM Hotel);
-
-Output:
+<img width="628" alt="Screenshot 2025-03-17 at 3 07 00 PM" src="https://github.com/user-attachments/assets/ccefdde5-4ae3-4864-8dea-8921f7576fcf" />
 
 
 
--- 9:  Find trails with an operational lift and their difficulty level
 
-CREATE Procedure TP_9()
-SELECT Trail.trailName, Trail.trailDifficulty
-FROM Trail
-JOIN Lift ON Trail.trailID = Lift.trailID
-GROUP BY Trail.trailName, Trail.trailDifficulty;
+Query 9: This query allows the resort manager to view all ski trails and their respective diffulty rankings. This is important for a manager to know to ensure guest safety, allocate appropriate resources to each trail, configure responses for emergencies that may arise, and plan for ski events depending on skill levels for guests. 
 
-Output:
+<img width="629" alt="Screenshot 2025-03-17 at 3 12 04 PM" src="https://github.com/user-attachments/assets/c99df5df-da4c-4acd-b81e-95af769eb787" />
 
 
 
--- 10: Displays the highest-paid rental shop employee at each rental shop 
+Query 10: This query displays the highest-paid rental shop employee at each equipment rental shop. This query is important for a resort manager to know so they are able to accurately manage each rental shop's budget, identify employees and determine their performance, recognize talented employees, and compare and standardize employee salaries for each loaction. 
 
-CREATE Procedure TP_Q10()
-SELECT RentalShop.rentalShopName, rentalShopStaff.staffName, rentalShopStaff.staffSalary
-FROM rentalShopStaff
-JOIN RentalShop ON rentalShopStaff.rentalShopID = RentalShop.rentalShopID
-WHERE rentalShopStaff.staffSalary = (SELECT MAX(rentalShopStaff.staffSalary) FROM rentalShopStaff WHERE rentalShopStaff.rentalShopID = RentalShop.rentalShopID);
+<img width="1139" alt="Screenshot 2025-03-17 at 3 15 04 PM" src="https://github.com/user-attachments/assets/05d1aa21-14e0-4ec4-ba12-0d0975941805" />
+
 
 Output:
 
