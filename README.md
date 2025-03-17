@@ -14,7 +14,7 @@ Data Model:
 
 Data Dictionary: 
 
-
+Database Information Table: 
 
 
 
@@ -81,5 +81,5 @@ Query 10: This query displays the highest-paid rental shop employee at each equi
 <img width="1139" alt="Screenshot 2025-03-17 at 3 15 04 PM" src="https://github.com/user-attachments/assets/05d1aa21-14e0-4ec4-ba12-0d0975941805" />
 
 
-DATABASE INFORMATION                                                                                                                      
+ADDITIONAL DATABASE INFORMATION                                                                                                                      
 Name of database: ns_Sp25_21479_Group1;
