@@ -3,12 +3,8 @@ Project 1 - Ski resort
 
 Team Members: Brett Bailey, Brooke Credendino, Mohammed Omar, Evan Langley, Soham Gupta
 
-Links to each GitHub repository: 
-Brett: https://github.com/brettbailey04/Ski-Resort-.git
-Brooke: 
-Mohammed: https://github.com/brettbailey04/Ski-Resort-.git
-Evan: 
-Soham: 
+Links to each GitHub repository: https://github.com/brettbailey04/Ski-Resort-.git
+ 
 
 Scenario Description: Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. It also shows a snapshot of roombookings from each hotel at a point in time. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
 
