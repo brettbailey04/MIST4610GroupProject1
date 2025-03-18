@@ -12,7 +12,7 @@
  
 
 # Scenario Description: 
-Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. It also shows a snapshot of roombookings from each hotel at a point in time. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
+The scenario we have been given is to model and create a relational database for the basic functions of a Ski Resort. The central entity of the model is the Hotel entity. The Hotel entity represents the various residential buildings the resort obtains throughout the entirety of its limits. The hotel is operated alongside the restaurants within them, the rental shop within them, and the respective reservations/excursions guests within them have booked. We are interested in creating high fidelity models of these relationships, having accurate and descriptive attributes, generating and populating sample data, and displaying valuable insights. Information gathered from queries will be important to the Ski Resort and many of its daily operations as it strives to efficiently utilize its various provided amenities and accommodations. 
 
 # Data Model:                                                                                                                                    
 ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
