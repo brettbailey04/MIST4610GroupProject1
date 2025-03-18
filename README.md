@@ -37,6 +37,8 @@ Data Dictionary:
 
 Database Information Table: 
 
+<img width="1227" alt="Screenshot 2025-03-17 at 8 00 38 PM" src="https://github.com/user-attachments/assets/b20e1707-4900-49c5-9aad-240ceb93d9d9" />
+
 
 
 
