@@ -45,6 +45,7 @@ Database Information Table:
 Queries: 
 
 Query 1: This query lists all upcoming reservations with Check In and Check Out dates. This query would be useful for a resort manager to know so that they do not book more than one party at each available location or allow a location to be vacant as to maximize reveunes of the resort. 
+
 <img width="677" alt="Screenshot 2025-03-17 at 4 31 23 PM" src="https://github.com/user-attachments/assets/bd24ccef-a1d5-4901-8514-2b82ce248496" />
 
 
