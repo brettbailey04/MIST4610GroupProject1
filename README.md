@@ -1,4 +1,4 @@
-# Ski-Resort-
+# Group 1 MIST 4610 Group Project 1
 Project 1 - Ski resort 
 
 Team Members: 
