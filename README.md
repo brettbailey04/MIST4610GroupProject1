@@ -3,10 +3,10 @@ Project 1 - Ski resort
 
 Team Members: 
 1) Brett Bailey [@brettbailey04](https://github.com/brettbailey04)
-2) Brooke Credendino
+2) Brooke Credendino [@BrookeCredendino](https://github.com/BrookeCredendino)
 3) Mohammed Omar [@momo103103](https://github.com/momo103103)
-4) Evan Langley
-5) Soham Gupta
+4) Evan Langley [@elangley424](https://github.com/elangley424)
+5) Soham Gupta [@GHSohamGupta](https://github.com/GHSohamGupta)
 
 Link to GitHub repository: https://github.com/brettbailey04/Ski-Resort-.git
  
