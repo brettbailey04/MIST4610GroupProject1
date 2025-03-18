@@ -14,7 +14,20 @@
 # Scenario Description: 
 The scenario we have been given is to model and create a relational database for the basic functions of a Ski Resort. The central entity of the model is the Hotel entity. The Hotel entity represents the various residential buildings the resort obtains throughout the entirety of its limits. The hotel is operated alongside the restaurants within them, the rental shop within them, and the respective reservations/excursions guests within them have booked. We are interested in creating high fidelity models of these relationships, having accurate and descriptive attributes, generating and populating sample data, and displaying valuable insights. Information gathered from queries will be important to the Ski Resort and many of its daily operations as it strives to efficiently utilize its various provided amenities and accommodations. 
 
-# Data Model:                                                                                                                                    
+# Data Model: 
+Explanation of data model:
+
+Our model is structured around a ski resort and the various amenities housed within.
+
+The core entity we begin with is Hotel. The hotel entity refers to the various hotel buildings scattered around the resort. Each hotel has various hotel staff that work singularly to that hotel (one-to-many). Within each hotel there are many rooms that comprise the building (one-to-many).Multiple rooms can be a part of one reservation but more than one reservation can not spill into the same room (one-to-many). 
+
+A reservation can contain many guests but guests can not be in more than one reservation (one-to-many). Within the reservation there can also be various lessons (one-to-many). Each lesson is attributed to one trail and each trail to one respective lift (one-to-one). A lesson can have many instructors and the instructors can each teach many lessons (many-to-many/associative).
+
+Back towards the hotel, each hotel contains various types and cuisine of restaurants and those restaurants are present solely within each respective hotel (one-to-many). The restaurant has many restaurant staff that each work independently to that respective restaurant (one-to-many). 
+
+Each hotel also has its own personal rent shop (one-to-one). The rent shop has various employees that work at them, and each rental shop has a wide array of various Ski equipment designated specifically for their respective shop (one-to-many). 
+
+
 ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
 
 
