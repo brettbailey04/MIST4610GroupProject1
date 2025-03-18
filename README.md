@@ -1,23 +1,24 @@
 # Group 1 MIST 4610 Group Project 1
-Project 1 - Ski resort 
+# Team Name:
+21479 Group 1
 
-Team Members: 
+# Team Members: 
 1) Brett Bailey [@brettbailey04](https://github.com/brettbailey04)
 2) Brooke Credendino [@BrookeCredendino](https://github.com/BrookeCredendino)
 3) Mohammed Omar [@momo103103](https://github.com/momo103103)
 4) Evan Langley [@elangley424](https://github.com/elangley424)
 5) Soham Gupta [@GHSohamGupta](https://github.com/GHSohamGupta)
 
-Link to GitHub repository: https://github.com/brettbailey04/Ski-Resort-.git
  
 
-Scenario Description: Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. It also shows a snapshot of roombookings from each hotel at a point in time. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
+# Scenario Description: 
+Our business model is that of a Ski Resort. This firm manages a portfolio of various Ski Resorts over the world. The model keeps track of the resort and its various amenities. It also shows a snapshot of roombookings from each hotel at a point in time. This includes Equipment, Food, Housing, Recreational Events, Skiing Courses, and the various intricacies that are pertinent to a functioning resort. 
 
-Data Model:                                                                                                                                    
+# Data Model:                                                                                                                                    
 ![image](https://github.com/user-attachments/assets/df10cd73-77bd-4207-9994-aa319c743be6)
 
 
-Data Dictionary: 
+# Data Dictionary: 
 
 
 
@@ -35,14 +36,13 @@ Data Dictionary:
 
 
 
-Database Information Table: 
+# Queries: 
 
 <img width="1227" alt="Screenshot 2025-03-17 at 8 00 38 PM" src="https://github.com/user-attachments/assets/b20e1707-4900-49c5-9aad-240ceb93d9d9" />
 
 
 
 
-Queries: 
 
 Query 1: This query lists all upcoming reservations with Check In and Check Out dates. This query would be useful for a resort manager to know so that they do not book more than one party at each available location or allow a location to be vacant as to maximize reveunes of the resort. 
 
@@ -108,5 +108,7 @@ Query 10: This query displays the highest-paid rental shop employee at each equi
 <img width="1023" alt="Screenshot 2025-03-17 at 4 33 11 PM" src="https://github.com/user-attachments/assets/0d6a7a16-6995-4ca9-8e17-ea3ab692152e" />
 
 
-ADDITIONAL DATABASE INFORMATION                                                                                                                      
+# Database Information:                                                                                                                      
 Name of database: ns_Sp25_21479_Group1;
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q#();
