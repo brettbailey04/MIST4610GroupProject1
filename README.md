@@ -15,7 +15,7 @@
 The scenario we have been given is to model and create a relational database for the basic functions of a Ski Resort. The central entity of the model is the Hotel entity. The Hotel entity represents the various residential buildings the resort obtains throughout the entirety of its limits. The hotel is operated alongside the restaurants within them, the rental shop within them, and the respective reservations/excursions guests within them have booked. We are interested in creating high fidelity models of these relationships, having accurate and descriptive attributes, generating and populating sample data, and displaying valuable insights. Information gathered from queries will be important to the Ski Resort and many of its daily operations as it strives to efficiently utilize its various provided amenities and accommodations. 
 
 # Data Model: 
-Explanation of data model:
+Explanation of data model: 
 
 Our model is structured around a ski resort and the various amenities housed within.
 
