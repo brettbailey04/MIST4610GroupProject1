@@ -1,4 +1,4 @@
-# Group 1 MIST 4610 Group Project 1
+# Group 1 MIST 4610 Group Project 1 
 # Team Name:
 21479 Group 1
 
